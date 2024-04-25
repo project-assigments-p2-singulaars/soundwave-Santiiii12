@@ -1,0 +1,106 @@
+*{
+    color:#fff;
+    background-color: #2F303A;
+    text-decoration: none;
+}
+
+.father{
+display:flex;
+height: 81.5vh;
+justify-content: center;
+align-items: center;
+gap:2%;
+}
+.all{
+    margin-left: 20%;
+}
+
+.image-container{
+    display:flex;
+    // justify-content: flex-start;
+align-items: center;
+    flex-direction: row;
+    gap:2rem;
+}
+
+.image{
+    display:flex;
+    flex-direction: column;
+    background-color: #202027;
+    height:50%;
+    width:20%;
+    padding:1%;
+    gap:10px;
+    align-items: center;
+}
+.albums{
+    height: 9rem;
+
+}
+
+p{
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    margin:0;
+}
+
+.albums{
+    width:50%;
+    height:50%;
+}
+.image2{
+    background-color: transparent;
+    height:40%;
+
+}
+.textdiscover{
+    display: flex;
+    padding-top:8%;
+    padding-bottom: 8%;
+    font-weight: 250;
+}
+
+@media (max-width:480px){
+.textdiscover{
+    margin-right: 18%;
+}
+    .father{
+        display:flex;
+        flex-direction: column;
+    }
+    .all{
+       margin-left: 20%;
+       height: 20%;
+       
+    }
+    .discover{
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 50%;
+    }
+    .albums{
+    width:12rem;
+        height:12rem;
+        
+    }
+    
+    
+.father{
+    width:100vw;
+    height:84vh;
+    overflow:none;
+}
+.title{
+    padding: 0;
+    }
+    .image-conainer{
+        display:flex;
+        margin-bottom: 110%;
+        margin-top:10%;
+        gap:10%;
+
+    }
+  
+}
